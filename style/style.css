@@ -166,15 +166,15 @@ font-size: 14px;
 font-weight: 400;
 }
 .video-tag{
-    width: 1000px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
     box-sizing: border-box;
-    border: 15px solid rgba(13, 19, 33, 0.2);
-    border-radius: 16px;
-    
+}
+.video-tag iframe{
+    border: 20px solid rgba(249, 225, 225, 0.222);
+    border-radius: 30px;
+    overflow: hidden;
 }
 /* my current target  */
 .target{
