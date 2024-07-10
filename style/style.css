@@ -56,6 +56,10 @@ padding-bottom:  25px;
     border-radius: 6px;
     text-align: center;
 }
+.contact-anchor{
+    color: white;
+    text-decoration: none;
+}
 /* why web development */
 .devolopment-section{
     width: 900px;
@@ -83,7 +87,7 @@ padding-bottom: 15px;
 .devolopment-title p{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 14px;
+font-size: 12px;
 font-weight: 500;
 padding-top: 15px;
 line-height: 25px;
@@ -313,4 +317,33 @@ border: none;
     width: 100px;
     height: 42px;
     border-radius: 5px;
+}
+/* footer nav bar */
+.footer-nav{
+    width: 1120px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-icons{
+    width: 190px;
+    height: 36px;
+}
+.nav-icons ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.nav-icons li{
+   list-style-type:none;
+    
+}
+.footer-nav h3{
+    color: rgba(0, 0, 0, 0.776);
+    font-size: 18px;
+    font-weight: bold;
 }
