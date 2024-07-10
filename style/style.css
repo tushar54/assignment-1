@@ -14,7 +14,7 @@ html{
     width: 1200px;
     height: 600px;
     margin: 0 auto;
-    background-image: url(/assets/hero-bg.png);
+    background-image: url(../assets/hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -270,7 +270,7 @@ border: none;
     border: 1px solid black;
     margin: 0 auto;
     margin-top: 40px;
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(../assets/handshake.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
